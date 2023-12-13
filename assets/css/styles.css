@@ -413,3 +413,80 @@ a {
 .popular .course-item .book-btn:hover {
   background-color: var(--primary-color);
 }
+
+/* FEEDBACK */
+
+.feedback {
+  margin-top: 135px;
+  padding: 96px;
+  background: #2e2100;
+}
+
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback .info .avt {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .feedback-item {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.feedback .feedback-item .title {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+
+.feedback .feedback-item .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.feedback .feedback-item .dots {
+  display: flex;
+  margin-top: 28px;
+}
+
+.feedback .feedback-item .dot {
+  background: #634700;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.feedback .feedback-item .dot.active {
+  background: #ffb900;
+}
+
+.feedback .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback .content blockquote {
+  font-family: Poppins;
+  font-style: italic;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.53;
+  text-align: left;
+  color: #fff;
+  margin-left: 30px;
+}
